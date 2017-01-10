@@ -37,10 +37,10 @@ accordion by jquery
 開收合效果的動畫時間，預設為300，也可自定義在.aos加入屬性data-duration="持續時間(ms)"
 
 ##	動畫
-開收合的動畫效果，預設為linear，可下載類似<a href="http://easings.net/zh-tw" target="_blank">Easing 函數速查表</a>等擴充動畫效果，利用.aos加入屬性data-easing="函數名稱"
+開收合的動畫效果，預設為linear，<br>可下載類似<a href="http://easings.net/zh-tw" target="_blank">Easing 函數速查表</a>等擴充動畫效果，<br>利用.aos加入屬性data-easing="函數名稱"
 
 ##	指定開啟
-當頁面載入，如需先將某項內容開啟，可在內容的標籤裡加上屬性data-open，注意的是當載入好頁面，data-open是會被自動移除的
+當頁面載入，如需先將某項內容開啟，可在內容的標籤裡加上屬性data-open，<br>注意的是當載入好頁面，data-open是會被自動移除的
 ```html
 	<ul class="aos">
 	  <li>
@@ -55,8 +55,8 @@ accordion by jquery
 ```
 
 ##	導引宣告
-可在.aos裡加入data-guide="自定義類別"，會自動在需開啟的標題加入導引的按鈕，當開啟狀態時，data-guide會加上.open<br>
-<span style="color: #ccc">當未啟用data-guide，可以利用.aos-active、.aos-bread來達成.open</span>
+可在.aos裡加入data-guide="自定義類別"，會自動在需開啟的標題加入導引的按鈕，<br>當開啟狀態時，data-guide會加上.open<br>
+note:當未啟用data-guide，可以利用.aos-active、.aos-bread來達成.open
 
 ##	自動加入高度
 如有在.aos加入data-guide，可利用data-guide-height，將標題的高度帶入data-guide
