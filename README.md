@@ -16,7 +16,7 @@ accordion by jquery
   12. [麵包屑](#麵包屑)
 
 ##	用法
-載入<a href="http://jquery.com/download/">jQuery主程式</a>，並將aos.js放在&lt;head&gt;或&lt;/body&前<br>
+載入<a href="http://jquery.com/download/">jQuery主程式</a>，並將aos.js放在&lt;head&gt;或&lt;/body&gt;前<br>
 使用.aos，結構必須為以下範例(標籤依開發者自己調整)
 ```html
 	<ul class="aos"> <!-- 以下的相關設定可在此加入 -->
