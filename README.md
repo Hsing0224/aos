@@ -1,6 +1,5 @@
 # aos
-accordion by jquery
-
+accordion by jquery<br><a href="https://starrandy.github.io/aos/">您也可以在這邊看</a>
 ## 功能
   1. [用法](#用法)
   2. [模式](#模式)
