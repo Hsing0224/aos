@@ -1,0 +1,29 @@
+@charset "utf-8";
+$primaryColor: #07c;
+$secondaryColor: #414c51;
+
+@mixin lineClamp($line) {
+	display: -webkit-box;
+	-webkit-line-clamp: $line;
+	-webkit-box-orient: vertical;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+%ulReset {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+%boxSizing {
+	box-sizing: border-box;
+}
+%textOutHide {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+%linkTextHide {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}

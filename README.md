@@ -1,2 +1,0 @@
-# aos
-accordion by jquery
